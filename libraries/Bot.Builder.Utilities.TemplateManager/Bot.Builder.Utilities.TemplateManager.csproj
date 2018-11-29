@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Pratik Panda</Authors>
+    <Description>A usage policy based template manager for the Bot Builder SDK.</Description>
+    <PackageLicenseUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet/tree/master/libraries/Bot.Builder.Utilities.TemplateManager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet</RepositoryUrl>
+    <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.1.5" />
+  </ItemGroup>
+
+</Project>

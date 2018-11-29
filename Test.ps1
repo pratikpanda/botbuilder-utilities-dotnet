@@ -1,0 +1,1 @@
+vstest.console /logger:Appveyor tests\Bot.Builder.Utilities.TemplateManager.Tests\bin\Release\netcoreapp2.1\Bot.Builder.Utilities.TemplateManager.Tests.dll
