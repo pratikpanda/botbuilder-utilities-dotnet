@@ -18,11 +18,14 @@ test:
   assemblies:
     only:
     - .\tests\Bot.Builder.Utilities.TemplateManager.Tests\bin\Release\netcoreapp2.1\Bot.Builder.Utilities.TemplateManager.Tests.dll
+    - .\tests\Bot.Builder.Utilities.Markdown.Extensions.Tests\bin\Release\netcoreapp2.1\Bot.Builder.Utilities.Markdown.Extensions.Tests.dll
 before_test:
 - ps: .\Test.ps1
 artifacts:
 - path: .\libraries\Bot.Builder.Utilities.TemplateManager\artifacts\*.nupkg
   name: NuGet
+- path: .\libraries\Bot.Builder.Utilities.Markdown.Extensions\artifacts\*.nupkg
+  name: NuGet 
 deploy:
 - provider: NuGet
   server: https://www.myget.org/F/pratikpanda-ci/api/v2/package

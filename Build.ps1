@@ -56,3 +56,4 @@ exec { & dotnet restore }
 dotnet build --configuration Release
 
 exec { & dotnet pack .\libraries\Bot.Builder.Utilities.TemplateManager -c Release -o .\artifacts }
+exec { & dotnet pack .\libraries\Bot.Builder.Utilities.Markdown.Extensions -c Release -o .\artifacts }
