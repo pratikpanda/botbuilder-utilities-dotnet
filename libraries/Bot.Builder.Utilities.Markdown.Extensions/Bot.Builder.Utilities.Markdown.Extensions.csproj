@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Pratik Panda</Authors>
+    <Description>A markdown text generator for the Bot Builder SDK.</Description>
+    <PackageLicenseUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet/tree/master/libraries/Bot.Builder.Utilities.Markdown.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
