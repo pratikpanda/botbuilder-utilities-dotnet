@@ -7,6 +7,7 @@
     <PackageLicenseUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet/tree/master/libraries/Bot.Builder.Utilities.Markdown.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pratikpanda/botbuilder-utilities-dotnet</RepositoryUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
