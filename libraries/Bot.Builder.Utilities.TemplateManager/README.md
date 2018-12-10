@@ -1,4 +1,4 @@
-﻿﻿# Bot.Framework.Utilities.TemplateManager
+# Bot.Framework.Utilities.TemplateManager
 A template manager for generating conversation message for bots created using Microsoft Bot Framework.
 
 ## Usage
