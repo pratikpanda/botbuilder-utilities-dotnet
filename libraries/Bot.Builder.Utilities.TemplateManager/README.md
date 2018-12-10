@@ -64,7 +64,7 @@ public class RootResponses : TemplateManager
 }
 ```
 
-To create a custom template manager:
+To use the custom template manager:
 
 ```csharp
 // To send an activity using the template manager.
