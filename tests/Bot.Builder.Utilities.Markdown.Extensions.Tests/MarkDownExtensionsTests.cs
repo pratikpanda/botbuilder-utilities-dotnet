@@ -38,6 +38,20 @@ namespace Bot.Builder.Utilities.Markdown.Extensions.Tests
         }
 
         [TestMethod]
+        public void GetStrikethroughText_Returns_StrikethroughText()
+        {
+            // Arrange
+            var expected = "~~Text~~";
+            var inputText = "Text";
+
+            // Act
+            var actual = inputText.GetStrikethroughText();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
         public void GetOrderedListText_Returns_OrderedListText()
         {
             // Arrange
@@ -72,6 +86,34 @@ namespace Bot.Builder.Utilities.Markdown.Extensions.Tests
         }
 
         [TestMethod]
+        public void GetPreformattedText_Returns_PreformattedText()
+        {
+            // Arrange
+            var expected = "`Text`";
+            var inputText = "Text";
+
+            // Act
+            var actual = inputText.GetPreformattedText();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void GetBlockQuotedText_Returns_BlockQuotedText()
+        {
+            // Arrange
+            var expected = "> Text";
+            var inputText = "Text";
+
+            // Act
+            var actual = inputText.GetBlockQuotedText();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
         public void GetLinkText_Returns_LinkText()
         {
             // Arrange
@@ -82,6 +124,22 @@ namespace Bot.Builder.Utilities.Markdown.Extensions.Tests
 
             // Act
             var actual = urlText.GetLinkText(displayText);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void GetImageLinkText_Returns_ImageLinkText()
+        {
+            // Arrange
+            var expected = "![DisplayText](ImageUrlText)";
+
+            var displayText = "DisplayText";
+            var urlText = "ImageUrlText";
+
+            // Act
+            var actual = urlText.GetImageLinkText(displayText);
 
             // Assert
             Assert.AreEqual(expected, actual);

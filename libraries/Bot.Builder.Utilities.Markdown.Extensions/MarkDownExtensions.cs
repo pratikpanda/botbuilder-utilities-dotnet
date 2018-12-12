@@ -17,6 +17,12 @@ namespace Bot.Builder.Utilities.Markdown.Extensions
             return text;
         }
 
+        public static string GetStrikethroughText(this string text)
+        {
+            text = $"~~{text}~~";
+            return text;
+        }
+
         public static string GetOrderedListText(this List<string> text)
         {
             int listSequenceNumber = 1;
@@ -43,11 +49,30 @@ namespace Bot.Builder.Utilities.Markdown.Extensions
             return unOrderedListText;
         }
 
+        public static string GetPreformattedText(this string text)
+        {
+            text = $"`{text}`";
+            return text;
+        }
+
+        public static string GetBlockQuotedText(this string text)
+        {
+            text = $"> {text}";
+            return text;
+        }
+
         public static string GetLinkText(this string url, string displayText)
         {
             string linkText = string.Empty;
             linkText = $"[{displayText}]({url})";
             return linkText;
+        }
+
+        public static string GetImageLinkText(this string imageUrl, string displayText)
+        {
+            string imageLinkText = string.Empty;
+            imageLinkText = $"![{displayText}]({imageUrl})";
+            return imageLinkText;
         }
     }
 }
