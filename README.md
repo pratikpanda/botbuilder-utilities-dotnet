@@ -18,5 +18,5 @@ Please contribute to this project, in the form of bug fixes, enhancements or new
 ## Components
 | Name | Description | NuGet |
 | ------ | ------ | ------ |
-| [Template Manager](libraries/Bot.Builder.Utilities.TemplateManager) | A usage policy based template manager for bots created using Microsoft Bot Framework. | [![NuGet version](https://img.shields.io/badge/NuGet-1.0.1-blue.svg)](https://www.nuget.org/packages/Bot.Builder.Utilities.TemplateManager/) |
-| [Markdown Extensions](libraries/Bot.Builder.Utilities.Markdown.Extensions) | A markdown text generator for bots created using Microsoft Bot Framework. | [![NuGet version](https://img.shields.io/badge/NuGet-1.0.1-blue.svg)](https://www.nuget.org/packages/Bot.Builder.Utilities.Markdown.Extensions/) |
+| [Template Manager](libraries/Bot.Builder.Utilities.TemplateManager) | A usage policy based template manager for bots created using Microsoft Bot Framework. | [![NuGet version](https://img.shields.io/badge/NuGet-1.1.1-blue.svg)](https://www.nuget.org/packages/Bot.Builder.Utilities.TemplateManager/) |
+| [Markdown Extensions](libraries/Bot.Builder.Utilities.Markdown.Extensions) | A markdown text generator for bots created using Microsoft Bot Framework. | [![NuGet version](https://img.shields.io/badge/NuGet-1.1.1-blue.svg)](https://www.nuget.org/packages/Bot.Builder.Utilities.Markdown.Extensions/) |
