@@ -5,13 +5,14 @@ A template manager for generating conversation message for bots created using Mi
 The component allows the bot developer to store conversation messages in resource files and create custom template manager to generate text from the resource files based on language and usage policy.
 Please refer to the code snippets below to understand how to use create and component.
 
-To create a custom template manager:
+> This example uses SampleDialog as an example dialog and SampleResponses as the associated custom template manager for the dialog.
+> Inside SampleDialog.cs create SampleResponses as a static field and initialize it using field initializer syntax.
 
 ```csharp
-// This example uses SampleDialog as an example dialog and SampleResponses as the associated template manager for the dialog.
-// Inside sample dialog create SampleResponses as a static field and initialize it using field initializer syntax.
+// SampleDialog.cs
 public static SampleResponses Responder = new SampleResponses();
-
+```
+```csharp
 // SampleResponses.cs
 public class RootResponses : TemplateManager
 {
@@ -29,7 +30,6 @@ public class RootResponses : TemplateManager
         {
             ["default"] = new TemplateIdMap
             {
-                //
                 { SampleConstant1, (context, data) => RootStrings.SAMPLE1 },
                 { SampleConstant2, (context, data) => RootStrings.SAMPLE2 }
             }
