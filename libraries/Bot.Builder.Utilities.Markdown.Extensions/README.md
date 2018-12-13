@@ -16,6 +16,14 @@ var boldText = text.GetBoldText();
 var text = "This text should be in italics.";
 var italicsText = text.GetItalicsText();
 
+// Strikethrough
+var text = "This text should be striked through.";
+var strikethroughText = text.GetStrikethroughText();
+
+// Preformatted
+var text = "This text should be preformatted.";
+var preformattedText = text.GetPreformattedText();
+
 // Ordered List
 var text = new List<string> 
 {
@@ -34,8 +42,17 @@ var text = new List<string>
 };
 var unorderedListText = text.GetUnorderedListText();
 
+// Block Quote
+var text = "This text should be block quoted.";
+var blockQuotedText = text.GetBlockQuotedText();
+
 // Link
 var text = "https://www.microsoft.com/en-in";
 var displayText = "Microsoft";
 var linkText = text.GetLinkText(displayText);
+
+// Image Link
+var text = "https://abc/img.jpg";
+var displayText = "Sample Image";
+var imageLinkText = text.GetImageLinkText(displayText);
 ```
