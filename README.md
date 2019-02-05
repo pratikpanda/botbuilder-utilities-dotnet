@@ -16,7 +16,7 @@ Each component is available individually from NuGet. See each individual compone
 Please contribute to this project, in the form of bug fixes, enhancements or new components. Please fork the repo and raise a PR if you have something you would like me to review for inclusion.  If you want to discuss an idea first then the best way to do this right now is to raise a GitHub issue.
 
 ## Components
-| Name | Description | NuGet |
-| ------ | ------ | ------ |
-| [Template Manager](libraries/Bot.Builder.Utilities.TemplateManager) | A usage policy based template manager for bots created using Microsoft Bot Framework. | [![NuGet version](https://img.shields.io/badge/NuGet-1.1.1-blue.svg)](https://www.nuget.org/packages/Bot.Builder.Utilities.TemplateManager/) |
-| [Markdown Extensions](libraries/Bot.Builder.Utilities.Markdown.Extensions) | A markdown text generator for bots created using Microsoft Bot Framework. | [![NuGet version](https://img.shields.io/badge/NuGet-1.1.1-blue.svg)](https://www.nuget.org/packages/Bot.Builder.Utilities.Markdown.Extensions/) |
+| Name | Description | NuGet | Downloads |
+| ------ | ------ | ------ | ------ |
+| [Template Manager](libraries/Bot.Builder.Utilities.TemplateManager) | A usage policy based template manager for bots created using Microsoft Bot Framework. | [![NuGet](https://img.shields.io/nuget/vpre/bot.builder.utilities.templatemanager.svg)](https://www.nuget.org/packages/bot.builder.utilities.templatemanager) | [![NuGet](https://img.shields.io/nuget/dt/bot.builder.utilities.templatemanager.svg)](https://www.nuget.org/packages/bot.builder.utilities.templatemanager) |
+| [Markdown Extensions](libraries/Bot.Builder.Utilities.Markdown.Extensions) | A markdown text generator for bots created using Microsoft Bot Framework. | [![NuGet](https://img.shields.io/nuget/vpre/bot.builder.utilities.markdown.extensions.svg)](https://www.nuget.org/packages/bot.builder.utilities.markdown.extensions) | [![NuGet](https://img.shields.io/nuget/dt/bot.builder.utilities.markdown.extensions.svg)](https://www.nuget.org/packages/bot.builder.utilities.markdown.extensions) |
